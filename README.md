@@ -53,14 +53,10 @@ Step 5:
 
 Step 6:
 
-  For running Voice Assistant:
+  For running:
 
     python Proton.py
-
-  ( You can enable Gesture Recognition by using the command "Proton Launch Gesture Recognition" )
-
-  Or to run only Gesture Recognition without the voice assisstant:
-
-  Uncomment last 2 lines of Code in the file Gesture_Controller.py
+    
+  or
 
     python Gesture_Controller.py
