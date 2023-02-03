@@ -25,29 +25,29 @@ Anaconda Distribution
 
 Procedure
 
-  git clone https://github.com/The-Ar-J/Proton-Gesture-Controlled-Virtual-Mouse.git
+    git clone https://github.com/The-Ar-J/Proton-Gesture-Controlled-Virtual-Mouse.git
 
 Step 1:
 
-  conda create --name gest python=3.8.5
+    conda create --name gest python=3.8.5
 
 Step 2:
 
-  conda activate gest
+    conda activate gest
 
 Step 3:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Step 4:
 
-  conda install PyAudio
+    conda install PyAudio
 
-  conda install pywin32
+    conda install pywin32
 
 Step 5:
 
-  cd to the GitHub Repo till src folder
+    cd to the GitHub Repo till src folder
 
   Command may look like: cd C:\Users\.....\Gesture-Controlled-Virtual-Mouse\src
 
