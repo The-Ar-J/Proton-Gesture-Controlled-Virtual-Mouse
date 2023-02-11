@@ -49,7 +49,7 @@ Step 5:
 
     cd to the GitHub Repo till src folder
 
-  Command may look like: cd C:\Users\.....\Gesture-Controlled-Virtual-Mouse\src
+  Command may look like: cd C:\Users\.....\Proton-Gesture-Controlled-Virtual-Mouse\src
 
 Step 6:
 
