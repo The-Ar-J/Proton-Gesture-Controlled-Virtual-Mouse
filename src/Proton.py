@@ -99,7 +99,11 @@ def respond(voice_data):
         reply('Please give the limit')
         temp_audio = record_audio()
         app.eel.addUserMsg(temp_audio)
-        n = int(temp_audio)
+        try:
+            n = int(temp_audio)
+        except:
+            reply('Please give a valid number.')
+            return
         if n <= 0:
             return []
         elif n == 1:
@@ -112,8 +116,8 @@ def respond(voice_data):
             reply("one")
             for i in range(2, n):
                 next_term = series[-1] + series[-2]
-                reply(next_term)
                 series.append(next_term)
+            reply(series)
 
     elif 'date' in voice_data:
         reply(today.strftime("%B %d, %Y"))
@@ -129,6 +133,13 @@ def respond(voice_data):
             reply('This is what I found Sir')
         except:
             reply('Please check your Internet')
+
+    elif 'close web' in voice_data:
+        reply("Closing web browser")
+        try:
+            webbrowser.close()
+        except:
+            reply("Closing failed")
 
     elif 'location' in voice_data:
         reply('Which place are you looking for ?')
