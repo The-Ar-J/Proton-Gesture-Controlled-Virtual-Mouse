@@ -63,7 +63,9 @@ Step 6:
     python Gesture_Controller.py
 
 if an error like this:
+
   //AttributeError: partially initialized module 'cv2' has no attribute 'gapi_wip_gst_GStreamerPipeline' (most likely due to a circular import)//
 
 Use the following commands
+
     pip install --upgrade opencv-python
