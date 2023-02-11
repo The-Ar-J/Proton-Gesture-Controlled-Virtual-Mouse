@@ -95,7 +95,7 @@ def respond(voice_data):
     elif 'what is your name' in voice_data:
         reply('My name is Proton!')
 
-    elif 'print fibinocci series' in voice_data:
+    elif 'fibonacci series' in voice_data:
         reply('Please give the limit')
         temp_audio = record_audio()
         app.eel.addUserMsg(temp_audio)
@@ -108,8 +108,8 @@ def respond(voice_data):
             return [0, 1]
         else:
             series = [0, 1]
-            reply(0)
-            reply(1)
+            reply("zero")
+            reply("one")
             for i in range(2, n):
                 next_term = series[-1] + series[-2]
                 reply(next_term)
