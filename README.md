@@ -29,11 +29,11 @@ Procedure
 
 Step 1:
 
-    conda create --name gest python=3.8.5
+    conda create --name proton python=3.8.5
 
 Step 2:
 
-    conda activate gest
+    conda activate proton
 
 Step 3:
 
