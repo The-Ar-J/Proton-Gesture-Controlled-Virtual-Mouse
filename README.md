@@ -58,5 +58,6 @@ Step 6:
     python Proton.py
     
   or
+  to run the gesture control directly, uncomment the last two lines in Gesture_Controller.py
 
     python Gesture_Controller.py
